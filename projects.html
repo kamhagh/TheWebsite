@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Kamhagh's blog - Projects</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="style.css" rel="stylesheet"  type="text/css">
+</head>
+
+<body>
+<!-- 	<div class="container" id="navigationBar">
+	<ul class="nav nav-pills">
+	  <li role="presentation"><a href="index.html">Home</a></li>
+	  <li role="presentation"  class="active" ><a href="projects.html">Projects</a></li>
+	</ul>		
+	</div> -->
+
+	<!-- Navigation bar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+		<div class="navbar-header">
+			<a style="background-color:#eeeeee" class="navbar-brand" href="index.html">Kamhagh</a>
+	    </div>
+
+		<ul class="nav navbar-nav">
+			<li><a href="index.html">Home</a></li>
+			<li class="active"><a href="projects.html">Projects</a></li>
+		</ul>	
+
+		<div id="mainNavbar">
+  		<ul class="nav navbar-nav navbar-right">
+    		<li><a href="#PCLighting">PC Lightings</a></li>
+    		<li><a href="#CustomCircuit">Circuit</a></li>
+    		<li><a href="#LeaveMeAlone">The robot</a></li>
+    	</ul>
+    	</div>
+
+    	</div>
+	</nav>
+
+	<!-- Projects -->
+	<div class = "jumbotron project" id="PCLighting">  
+	 	<div class = "container">
+			<h1>PCLightings</h1>
+			<a href="#" class="thumbnail">
+				<img src="images\pclighting.jpg">		
+			</a>
+
+			<p>After seeing razer chroma blackwidow I thought wouldn't it be awesome to add the same thing to my PC? And not just the keyboard. It was good practice for me to learn how to make a file with profile details, and how to make spicific led effects for each profile. Sadly I lost the old code like always and I do still have a code which I think will work as I removed them from my pc I can't be sure. Anyway <a href="www.google.com">here</a> is the instructables :)</p>
+		</div>
+	</div>
+
+	<div class = "jumbotron project" id="CustomCircuit">  
+	 	<div class = "container">
+			<h1>My first circuit!</h1>
+			<!-- Carousel -->
+			<header id="circuit_Carousel" class="carousel slide">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#circuit_Carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#circuit_Carousel" data-slide-to="1"></li>
+				<li data-target="#circuit_Carousel" data-slide-to="2"></li>
+				<li data-target="#circuit_Carousel" data-slide-to="3"></li>
+				<li data-target="#circuit_Carousel" data-slide-to="4"></li>
+				<li data-target="#circuit_Carousel" data-slide-to="5"></li>
+				<!-- <li data-target="#circuit_Carousel" data-slide-to="6"></li> -->
+			</ol>
+
+			<!-- Wrapper for Slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images\CustomCircuit\1.jpg">
+
+					<div class="carousel-caption">
+						<p>The Design (Eagle)</p>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images\CustomCircuit\2.jpg">
+					<div class="carousel-caption">
+						<p>Printed the Design using iron!</p>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images\CustomCircuit\3.jpg">
+					<div class="carousel-caption">
+						<p>Look how tiny they are! and this isn't even near the small ones</p>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images\CustomCircuit\4.jpg">
+					<div class="carousel-caption">
+						<p>yay!</p>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images\CustomCircuit\5.jpg">
+					<div class="carousel-caption">
+						<p>still yay</p>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images\CustomCircuit\6.jpg">
+					<div class="carousel-caption">
+						<p>Ouch....</p>
+					</div>
+				</div>
+
+<!-- 				<div class="item">
+					<video id="CarouselVideo" src="images\CustomCircuit\Movie.mp4"></video>
+				</div> -->
+			</div>
+
+			
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#circuit_Carousel" data-slide="prev">
+			<span class="icon-prev"></span>
+			</a>
+			<a class="right carousel-control" href="#circuit_Carousel" data-slide="next">
+			<span class="icon-next"></span>
+			</a>
+
+			</header>
+
+			<p>Ruined my kitchen but it was worth it!</p>
+
+			
+		</div>
+
+	<div class = "jumbotron project" id="LeaveMeAlone">  
+	 	<div class = "container">
+			<h1>Leave me alone robot</h1>
+			<a href="#" class="thumbnail">
+				<img src="images\pclighting.jpg">
+			</a>
+
+			<p>This cute little robot will try to avoid you, give him some space
+			I just wanted to try to crontrol some motors, I went throught hell to make this because I had cheap wires and a terrible chasis and a power problem, I charged my two LiPoes and made them the same voltage and put them in series and finally managed to find a good power source! (6.4v-8v~) and it was light! and it had enough current! (350mAh 25c)
+			and the first run the robot torn itself apart from amout of acceleration! (I wasn't expecting this amout of power from the motors! nice job) So I changed my code and made the motors start slow and get faster over time which made it look like it was moving at constant speed
+			My cheap motor driver had like 2v voltage drop, but still enough to power it with the series lipo!</p>
+
+
+		</div>
+	</div>
+	</div>
+	<!-- Scripts -->
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

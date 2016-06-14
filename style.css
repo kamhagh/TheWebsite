@@ -1,0 +1,10 @@
+#navigationBar {
+   padding: .5em;
+}
+
+/* Projects */
+
+.project{
+   border-bottom: .2em solid grey;
+   border-top: .2em solid grey;
+}
